@@ -97,7 +97,7 @@
 							 "You look great"
 						],
 								afternoon: [	
-									 "Good afternoon, Kate"
+									 "Good afternoon, Kate - Testing update funcion"
 									 
 						 ],
 								evening: [
