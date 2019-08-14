@@ -78,7 +78,7 @@
 							 "You look great"
 						],
 								afternoon: [	
-									 "Good CRON WORKED! afternoon, Kate"
+									 "Good CRON auto-updated!! afternoon, Kate"
 									 
 						 ],
 								evening: [
