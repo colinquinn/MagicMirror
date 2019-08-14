@@ -78,7 +78,7 @@
 							 "You look great"
 						],
 								afternoon: [	
-									 "Good afternoon, you sex person you I think I will write a long sentence to test what a long sentence looks like"
+									 "Good afternoon, Kate"
 									 
 						 ],
 								evening: [
