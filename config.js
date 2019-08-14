@@ -7,7 +7,7 @@
 		 * See https://github.com/MichMich/MagicMirror#configuration
 		 *
 		 */
-		https://github.com/mykle1/MMM-EasyPix
+		
 		var config = {
 			address: "localhost", // Address to listen on, can be:
 			                      // - "localhost", "127.0.0.1", "::1" to listen on loopback interface
@@ -41,6 +41,11 @@
 				
 							}
 				},
+/*
+
+
+
+
 				{
 					module: "calendar",
 					header: "US Holidays",
@@ -53,6 +58,20 @@
 								url: "https://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"
 							}
 						]
+					}
+				},
+				*/
+				
+				
+				{
+				    module: "MMM-EasyPix",
+					position: "top_left",
+					config: {
+						picName: "p1.JPG", // Enter the picture file name.
+						maxWidth: "35%",        // Size picture precisely. Retains aspect ratio.
+						sounds: ["1.mp3", "me2.mp3"],  // mp3 sound file names in quotes seperated by commas for Hello-Lucy
+						updateInterval: 30 * 60 * 1000,     // updates display
+					        animationSpeed: 3000,
 					}
 				},
 				{
