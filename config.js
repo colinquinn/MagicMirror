@@ -63,17 +63,7 @@
 				*/
 				
 				
-				{
-				    module: "MMM-EasyPix",
-					position: "top_left",
-					config: {
-						picName: "p1.JPG", // Enter the picture file name.
-						maxWidth: "35%",        // Size picture precisely. Retains aspect ratio.
-						sounds: ["1.mp3", "me2.mp3"],  // mp3 sound file names in quotes seperated by commas for Hello-Lucy
-						updateInterval: 30 * 60 * 1000,     // updates display
-					        animationSpeed: 3000,
-					}
-				},
+	
 				{
 					module: "compliments",
 					position: "lower_third",
@@ -106,6 +96,17 @@
 							
 					}
 				}
+				},
+				{
+				    module: "MMM-EasyPix",
+					position: "lower_third",
+					config: {
+						picName: "p1.JPG", // Enter the picture file name.
+						maxWidth: "35%",        // Size picture precisely. Retains aspect ratio.
+						sounds: ["1.mp3", "me2.mp3"],  // mp3 sound file names in quotes seperated by commas for Hello-Lucy
+						updateInterval: 30 * 60 * 1000,     // updates display
+					        animationSpeed: 3000,
+					}
 				},
 				{
 					module: "currentweather",
