@@ -35,7 +35,7 @@
 				//},
 				{
 					module: "clock",
-					position: "top_left",
+					position: "top_right",
 					config: {
 					timeFormat: "12"
 				
@@ -84,7 +84,7 @@
 						 ],
 								morning: [
 							 //"Good morning, Kate",
-							 "Kate has a nice ass",
+							 "Kate has climitia",
 							 "You look great"
 							 
 						],
@@ -111,7 +111,7 @@
 				},
 				{
 					module: "weatherforecast",
-					position: "top_right",
+					position: "top_left",
 					header: "Weather Forecast",
 					config: {
 						location: "Milwaukee, Wisconsin",
@@ -120,9 +120,9 @@
 						units: "imperial"
 					}
 				},
-				{
+								{
 				    module: "MMM-EasyPix",
-					position: "bottom_bar",
+					position: "top_right",
 					config: {
 						picName: "p1.JPG", // Enter the picture file name.
 						maxWidth: "35%",        // Size picture precisely. Retains aspect ratio.
