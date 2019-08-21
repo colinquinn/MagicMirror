@@ -83,8 +83,10 @@
 									 "Don't forget your umbrella"
 						 ],
 								morning: [
-							 "Good morning, Kate",
+							 //"Good morning, Kate",
+							 "Kate has a nice ass",
 							 "You look great"
+							 
 						],
 								afternoon: [	
 									 "Good afternoon, Kate"
@@ -96,17 +98,6 @@
 							
 					}
 				}
-				},
-				{
-				    module: "MMM-EasyPix",
-					position: "lower_third",
-					config: {
-						picName: "p1.JPG", // Enter the picture file name.
-						maxWidth: "35%",        // Size picture precisely. Retains aspect ratio.
-						sounds: ["1.mp3", "me2.mp3"],  // mp3 sound file names in quotes seperated by commas for Hello-Lucy
-						updateInterval: 30 * 60 * 1000,     // updates display
-					        animationSpeed: 3000,
-					}
 				},
 				{
 					module: "currentweather",
@@ -127,6 +118,17 @@
 						locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
 						appid: "583e53e5fdcbcb4ac2d4a0d1dac9279d",
 						units: "imperial"
+					}
+				},
+				{
+				    module: "MMM-EasyPix",
+					position: "bottom_bar",
+					config: {
+						picName: "p1.JPG", // Enter the picture file name.
+						maxWidth: "35%",        // Size picture precisely. Retains aspect ratio.
+						sounds: ["1.mp3", "me2.mp3"],  // mp3 sound file names in quotes seperated by commas for Hello-Lucy
+						updateInterval: 30 * 60 * 1000,     // updates display
+					        animationSpeed: 3000,
 					}
 				},
 				{
