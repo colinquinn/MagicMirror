@@ -83,9 +83,9 @@
 									 "Don't forget your umbrella"
 						 ],
 								morning: [
-							 //"Good morning, Kate",
-							 "Kate has climitia",
-							 "You look great"
+							 "Good morning, Kate",
+							 "Have a great day",
+							 "You look beautiful"
 							 
 						],
 								afternoon: [	
