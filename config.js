@@ -83,10 +83,11 @@
 									 "Don't forget your umbrella"
 						 ],
 								morning: [
-							 "Good morning, Kate",
-							 "Have a great day",
-							 "You look beautiful"
-							 
+							// "Good morning, Kate",
+							"Colin misses you!", 
+							"Make today great!",
+							"You are a sexy mf",
+							"Colin wishes he was kissing you on that bridge!"
 						],
 								afternoon: [	
 									 "Good afternoon, Kate"
