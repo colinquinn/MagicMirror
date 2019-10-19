@@ -125,7 +125,7 @@
 				    module: "MMM-EasyPix",
 					position: "top_right",
 					config: {
-						picName: "p2.JPG", // Enter the picture file name.
+						picName: "p1.JPG", // Enter the picture file name.
 						maxWidth: "35%",        // Size picture precisely. Retains aspect ratio.
 						sounds: ["1.mp3", "me2.mp3"],  // mp3 sound file names in quotes seperated by commas for Hello-Lucy
 						updateInterval: 30 * 60 * 1000,     // updates display
