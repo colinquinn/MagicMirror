@@ -77,17 +77,15 @@
 						 ],
 								 snow: [	
 									 "Snowball battle!",
-									 "Dress warm"
+									 "Dress warm!"
 						 ],
 								 rain: [
 									 "Don't forget your umbrella"
 						 ],
 								morning: [
-							// "Good morning, Kate",
+							"Good morning, Kate",
 							"Colin misses you!", 
-							"Make today great!",
-							"You are a sexy mf",
-							"Colin wishes he was kissing you on that bridge!"
+							"Make today great!"
 						],
 								afternoon: [	
 									 "Good afternoon, Kate"
