@@ -35,7 +35,7 @@
 				//},
 				{
 					module: "clock",
-					position: "top_right",
+					position: "top_left",
 					config: {
 					timeFormat: "12"
 				
@@ -112,7 +112,7 @@
 				},
 				{
 					module: "weatherforecast",
-					position: "top_left",
+					position: "top_right",
 					header: "Weather Forecast",
 					config: {
 						location: "Milwaukee, Wisconsin",
