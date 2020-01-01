@@ -44,7 +44,7 @@
 						//},
 						{
 							module: "clock",
-							position: "top_center",
+							position: "top_left",
 							config: {
 							timeFormat: "12"
 						
@@ -109,7 +109,7 @@
 						},
 						{
 							module: "currentweather",
-							position: "top_left",
+							position: "top_right",
 							config: {
 								location: "Milwaukee, Wisconsin",
 								locationID: "",  //ID from http://bulk.openweathermap.org/sample/; unzip the gz file and find your city
@@ -117,28 +117,28 @@
 								units: "imperial"
 							}
 						},
-						{
-							module: "weatherforecast",
-							position: "top_left",
-							header: "Weather Forecast",
-							config: {
-								location: "Milwaukee, Wisconsin",
-								locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
-								appid: "583e53e5fdcbcb4ac2d4a0d1dac9279d",
-								units: "imperial"
-							}
-						},
-										{
-						    module: "MMM-EasyPix",
-							position: "top_right",
-							config: {
-								picName: "p1.JPG", // Enter the picture file name.
-								maxWidth: "35%",        // Size picture precisely. Retains aspect ratio.
-								sounds: ["1.mp3", "me2.mp3"],  // mp3 sound file names in quotes seperated by commas for Hello-Lucy
-								updateInterval: 30 * 60 * 1000,     // updates display
-							        animationSpeed: 3000,
-							}
-						},
+						//{
+							//module: "weatherforecast",
+							//position: "right",
+							//header: "Weather Forecast",
+							//config: {
+								//location: "Milwaukee, Wisconsin",
+								//locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
+								//appid: "583e53e5fdcbcb4ac2d4a0d1dac9279d",
+								//units: "imperial"
+							//}
+						//},
+							//{
+						    //module: "MMM-EasyPix",
+							//position: "top_right",
+							//config: {
+								//picName: "p1.JPG", // Enter the picture file name.
+								//maxWidth: "35%",        // Size picture precisely. Retains aspect ratio.
+								//sounds: ["1.mp3", "me2.mp3"],  // mp3 sound file names in quotes seperated by commas for Hello-Lucy
+								//updateInterval: 30 * 60 * 1000,     // updates display
+							        //animationSpeed: 3000,
+							//}
+						//},
 						{
 							module: "newsfeed",
 							position: "bottom_bar",
