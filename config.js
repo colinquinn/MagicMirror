@@ -92,8 +92,13 @@
 											 "Don't forget your umbrella"
 								 ],
 										morning: [
-									"Good morning, Kate",
-									"Colin misses you!", 
+									//"Good morning, Kate",
+									//"Colin misses you!", 
+									"Kate has a donk :)",
+									"<Test 1a: P>",
+									"<Test 1b: P>",
+									"<Test 2: P>",
+									"<Test 3: P>",
 									"Make today great!"
 								],
 										afternoon: [	
